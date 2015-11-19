@@ -1,6 +1,6 @@
 library(dplyr); #needed for summarise_each
 
-run_analysis = function()){
+run_analysis = function(){
   
   
   #Load the activity lables and features
