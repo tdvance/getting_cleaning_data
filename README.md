@@ -8,4 +8,7 @@ Download "run_analysis.R" from this repository to the same working directory.
 
 Open "run_analysis.R " in RStudio and "source" the file.
 
-When it finished running and prints a message, it will have saved the tidy data file into "xtidy.txt" in the working directory.  In addition the xtidy variable will contain the tidy data frame, and the xtable variable will contain the complete table.  See the "CodeBook.md" file in this repository for details on how the data is cleaned.
+The following line will perform the analysis and store the data frame in the variable "xtidy".
+    xtidy = run_analysis()
+
+ See the "CodeBook.md" file in this repository for details on how the data is cleaned.
